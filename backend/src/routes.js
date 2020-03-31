@@ -15,8 +15,8 @@ routes.get('/incidents', incidentController.index)
 routes.post('/incidents', incidentController.create)
 routes.delete('/incidents/:id', incidentController.delete)
 
-routes.get('/profile', profileController.indexOfOng)
-routes.get('/profile/:id', profileController.index)
+routes.get('/profile', profileController.myIndex)
+routes.get('/profile/:id', profileController.indexOf)
 
 
 module.exports = routes

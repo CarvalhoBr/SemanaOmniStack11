@@ -2,7 +2,7 @@ const connection = require('../database/connection')
 
 module.exports = {
 
-    async indexOfOng(req, res){
+    async myIndex(req, res){
 
         const ong_id = req.headers.authorization 
 
@@ -13,7 +13,7 @@ module.exports = {
         return res.json(incidentsOf)  
     }, 
 
-    async index(req, res){
+    async indexOf(req, res){
 
         const { id } = req.params 
 
