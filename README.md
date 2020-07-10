@@ -20,5 +20,5 @@
 
 # `About`
 
-The project was developed at the Semana Omnistack 11 Bootcamp
+The project was developed at the Semana Omnistack 11 Bootcamp.
 The application objective is to help possible donors to find causes and NGOs that need monetary help
